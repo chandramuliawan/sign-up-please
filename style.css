@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ee5731;   
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #902c14; 
+}
+
+a:link,
+a:visited{
+    color: #ee5731; 
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+body {
+    padding-top: 20px;
+    background-color: grey;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+
+}
+
+#mainTitle {
+    color: #eeee;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.loginPage{
+    padding-top: 20px;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.headerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#odinLogo {
+    height: 100%;
+    width: 4rem;
+}
+
+.loginCard {
+    max-width: 500px;
+    border-top: 4px solid;
+    border-radius: 4px;
+    border-color: #ff6740;
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 30%) !important;
+    margin: auto;
+    padding: 20px 40px 30px 40px;
+    position: relative;
+}
+
+
+.floatRight {
+    text-align: right;
+    font-size: 12px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    color: #4e4e4e;
+}
+
+
+.formWrapper {
+    margin-top: 20px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    color: #fff;
+}
+
+.formGroup input {
+    width: 100%;
+    height: 2rem;
+    background: #919090;
+    border-radius: 4px;
+    border: none;
+}
+
+#inputButton {
+    text-align: center;
+    background-color: #ff6740;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.formSettings {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+#forgetPass {
+    text-align: right;
+}
+
+.required {
+    color: #e6613e;
+}
+
+.loginInfo {
+    padding: 15px 15px;
+    text-align: center;
+    background-color: #4e4e4e;
+    margin: 0 -40px -30px ;
+
+    font-size: smaller;
+
+    color: #d9d9d9;
+}
